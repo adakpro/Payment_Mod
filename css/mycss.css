@@ -1,0 +1,67 @@
+@font-face {
+  font-family: nazanin;
+  src: url(../fonts/BNazanin.ttf);
+}
+@font-face {
+  font-family: nazaninB;
+  src: url(../fonts/BNaznnBd.ttf);
+}
+body {
+	font-family: nazanin !important;
+	background-color: #fff !important;
+}
+.header-avatar {
+    width: 125px;
+    height: 125px;
+    -webkit-border-radius: 50%;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 50%;
+    -moz-background-clip: padding;
+    border-radius: 50%;
+    background-clip: padding-box;
+    border: 5px solid #f5f5f5;
+    -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    margin: 25px auto;
+}
+.padding {
+    padding: 5rem !important
+}
+
+.form-control:focus {
+    box-shadow: 10px 0px 0px 0px #ffffff !important;
+    border-color: #4ca746
+}
+#res ,#res2, #res3 {
+	font-weight:bold;
+}
+.increase{
+	color:#fff;
+	padding: 15px;
+	background:#0dcb00;
+	border-radius: 4em;
+}
+.increase:hover{
+	color:#fff;
+	background:#0e8b06;
+	text-decoration: none;
+}
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    *margin-right: .3em;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url(../img/glyphicons-halflings.png);
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+.icon-circle-arrow-right {
+    background-position: -240px -144px;
+}
+.icon-circle-arrow-left {
+    background-position: -264px -144px;
+}
