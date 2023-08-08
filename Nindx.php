@@ -234,7 +234,7 @@ $(document).ready(function(){
 																	<input name="captcha_code" style="height: 45px;border-radius: 4em !important;text-align: center;" autocomplete="off" id="captcha_code" type="text" maxlength="6" pattern="^[a-zA-Z0-9]{6}$" class="form-control" required>
 																</td>
 																<td>
-																	<img src="captcha.php?rand=<?php echo rand();?>" onclick='javascript: refreshCaptcha();' id='captchaimg'>
+																	<img src="lib/captcha.php?rand=<?php echo rand();?>" onclick='javascript: refreshCaptcha();' id='captchaimg'>
 																</td>
 															</tr>
 														</table>
