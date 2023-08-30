@@ -221,7 +221,7 @@ if($ResCode == '0')
             <div class="content">
                <h1>عملیات با موفقیت انجام شد</h1>
                <p>پرداخت شما با موفقیت انجام شد.</p>
-               <a href="https://chclub.mci.ir">تکمیل فرایند</a><br />
+               <a href="https://officespay.mci.ir/Nindx.php?orderUuId=ok">تکمیل فرایند</a><br />
 			   <b id="progresslabel"></b><br />
 			   <progress value="0" max="25" id="progressBar"></progress>
             </div>
@@ -270,7 +270,7 @@ if($ResCode == '0')
 					echo MellatMsg($res);
 				}
 				?></p>
-               <a class="error" href="https://officespay.mci.ir">بازگشت</a><br />
+               <a class="error" href="https://officespay.mci.ir/Nindx.php?orderUuId=ok">بازگشت</a><br />
 			   <b id="progresslabel"></b><br />
 			   <progress value="0" max="25" id="progressBar"></progress>
             </div>
