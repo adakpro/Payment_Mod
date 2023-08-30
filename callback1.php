@@ -270,7 +270,7 @@ if($ResCode == '0')
 					echo MellatMsg($res);
 				}
 				?></p>
-               <a class="error" href="https://chclub.mci.ir">بازگشت</a><br />
+               <a class="error" href="https://officespay.mci.ir">بازگشت</a><br />
 			   <b id="progresslabel"></b><br />
 			   <progress value="0" max="25" id="progressBar"></progress>
             </div>
