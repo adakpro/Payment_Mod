@@ -3,7 +3,7 @@
 <title>نتیجه پرداخت</title>
 </head>
 <body>
-<link href="css/bootstrap.min1.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/callback.css" rel="stylesheet">
 <script src="js/jquery.js"></script> 
 <script src="js/callback.js"></script> 
