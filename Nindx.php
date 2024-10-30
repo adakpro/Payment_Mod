@@ -193,7 +193,7 @@ $(document).ready(function(){
 										echo '<br />';
 										echo $payStartDate;*/
 										$hours = round($diff / ( 60 * 60 ));
-										if($hours <= 73){
+										if($hours <= 721){
 											?>
 											<div class="row" style="font-size:x-large; padding: 5px 25px;color:#272727;">
 												<div class="col-md-12" style="text-align:center">
